@@ -1,5 +1,11 @@
 {
   "products": [
-    
+    {
+      "id": "ad71f6e9-8f60-4f75-8ccb-a65461bc995c",
+      "name": "Long Sleeve shirt",
+      "price": "150",
+      "image": "https://preview.colorlib.com/theme/shop/img/l5.jpg.webp",
+      "description": "lorem"
+    }
   ]
 }

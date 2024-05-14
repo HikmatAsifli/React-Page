@@ -5,6 +5,7 @@ import Error from "../pages/error/error/error"
 import SiteRoot from "../pages/site/SiteRoot"
 import Home from "../pages/site/home/home"
 import Products from "../pages/admin/products/products"
+import Basket from "../pages/site/basket/basket"
 
 const ROUTES =[
     {
@@ -14,6 +15,10 @@ const ROUTES =[
             {
                 path:"",
                 element:<Home/>
+            },
+            {
+                path: "basket",
+                element: <Basket/>
             }
         ]
     },

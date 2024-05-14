@@ -54,7 +54,7 @@ const Add = () => {
                         <input
                             type="text"
                             name="price"
-                            placeholder='name'
+                            placeholder='price'
                             onChange={handleChange}
                             onBlur={handleBlur}
                             value={values.price}
