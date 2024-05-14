@@ -1,0 +1,35 @@
+.banner {
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #f6463d 0%,
+    #f6398d 45%,
+    #f52cdc 100%
+  );
+  h1 {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 1.15em;
+    margin-bottom: 20px;
+  }
+  .text {
+    font-size: 48px;
+    font-weight: 400;
+  }
+  .sub{
+    text-transform: uppercase !important;
+  }
+}
+.primary-btn {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 8px 35px;
+    border: 1px solid transparent;
+    transition: all 0.3s ease 0s;
+
+    &:hover{
+        background-color: #f41068 !important;
+        color: #fff !important;
+        border-color: #f41068;
+    }
+}

@@ -1,0 +1,15 @@
+header{
+    top: 0 !important;
+    ul{
+        li{
+            a{
+                color: black !important;
+                font-weight: bold !important;
+
+                &:hover{
+                    color: #f41068 !important;
+                }
+            }
+        }
+    }
+}
